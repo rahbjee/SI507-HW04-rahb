@@ -1,6 +1,6 @@
 def ask_eight():
     question = input("What is your question?")
-    return question
+    return check_question(question)
 
 
 def add_questions():
